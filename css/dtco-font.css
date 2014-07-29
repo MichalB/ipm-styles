@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'DTCO';
+    src:url('../fonts/dtco-font.eot');
+    src:url('../fonts/dtco-font.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/dtco-font.woff') format('woff'),
+        url('../fonts/dtco-font.ttf') format('truetype'),
+        url('../fonts/dtco-font.svg#dtcoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.dtco-icon {
+	font-family: 'DTCO';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.dtco-icon-card:before {
+	content: "\e601";
+}
+.dtco-icon-drive:before {
+	content: "\e602";
+}
+.dtco-icon-pause:before {
+	content: "\e603";
+}
+.dtco-icon-available:before {
+	content: "\e604";
+}
+.dtco-icon-rest:before {
+	content: "\e605";
+}
+.dtco-icon-work:before {
+	content: "\e606";
+}
+.dtco-icon-notavailable:before {
+	content: "\e607";
+}
+.dtco-icon-zero:before {
+	content: "\e608";
+}
+.dtco-icon-one:before {
+	content: "\e609";
+}
+.dtco-icon-two:before {
+	content: "\e610";
+}
+.dtco-icon-three:before {
+	content: "\e611";
+}
+.dtco-icon-four:before {
+	content: "\e612";
+}
+.dtco-icon-five:before {
+	content: "\e613";
+}
+.dtco-icon-six:before {
+	content: "\e614";
+}
+.dtco-icon-seven:before {
+	content: "\e615";
+}
+.dtco-icon-eight:before {
+	content: "\e616";
+}
+.dtco-icon-nine:before {
+	content: "\e617";
+}
+.dtco-icon-kmh:before {
+	content: "\e618";
+}
+.dtco-icon-celsius:before {
+	content: "\e619";
+}
+.dtco-icon-km:before {
+	content: "\e620";
+}
+.dtco-icon-coma:before {
+	content: "\e621";
+}
+.dtco-icon-fullstop:before {
+	content: "\e622";
+}
+.dtco-icon-colon:before {
+	content: "\e623";
+}
+.dtco-icon-semicolon:before {
+	content: "\e624";
+}
+.dtco-icon-hyphen:before {
+	content: "\e625";
+}
