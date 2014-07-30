@@ -98,9 +98,9 @@
 .ibr-icon-warning:before {
 	content: "\e618";
 }
-.ibr-icon-zoom-out:before {
+.ibr-icon-zoom-in:before {
 	content: "\e619";
 }
-.ibr-icon-zoom-in:before {
+.ibr-icon-zoom-out:before {
 	content: "\e61a";
 }
