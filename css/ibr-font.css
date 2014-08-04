@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'IBR-font';
-	src:url('../fonts/IBR-font.eot?kp7vxh');
-	src:url('../fonts/IBR-font.eot?#iefixkp7vxh') format('embedded-opentype'),
-		url('../fonts/IBR-font.woff?kp7vxh') format('woff'),
-		url('../fonts/IBR-font.ttf?kp7vxh') format('truetype'),
-		url('../fonts/IBR-font.svg?kp7vxh#IBR-font') format('svg');
+	src:url('../fonts/IBR-font.eot?lgc28g');
+	src:url('../fonts/IBR-font.eot?#iefixlgc28g') format('embedded-opentype'),
+		url('../fonts/IBR-font.woff?lgc28g') format('woff'),
+		url('../fonts/IBR-font.ttf?lgc28g') format('truetype'),
+		url('../fonts/IBR-font.svg?lgc28g#IBR-font') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -41,66 +41,69 @@
 .ibr-icon-filter:before {
 	content: "\e605";
 }
-.ibr-icon-pump:before {
+.ibr-icon-spinner:before {
 	content: "\e606";
 }
-.ibr-icon-canister:before {
+.ibr-icon-pump:before {
 	content: "\e607";
 }
-.ibr-icon-battery:before {
+.ibr-icon-canister:before {
 	content: "\e608";
 }
-.ibr-icon-rpm:before {
+.ibr-icon-battery:before {
 	content: "\e609";
 }
-.ibr-icon-vehicles:before {
+.ibr-icon-rpm:before {
 	content: "\e60a";
 }
-.ibr-icon-truck:before {
+.ibr-icon-vehicles:before {
 	content: "\e60b";
 }
-.ibr-icon-truck-alt:before {
+.ibr-icon-truck:before {
 	content: "\e60c";
 }
-.ibr-icon-car:before {
+.ibr-icon-truck-alt:before {
 	content: "\e60d";
 }
-.ibr-icon-digger:before {
+.ibr-icon-car:before {
 	content: "\e60e";
 }
-.ibr-icon-tractor:before {
+.ibr-icon-digger:before {
 	content: "\e60f";
 }
-.ibr-icon-manipulator:before {
+.ibr-icon-tractor:before {
 	content: "\e610";
 }
-.ibr-icon-lorry:before {
+.ibr-icon-manipulator:before {
 	content: "\e611";
 }
-.ibr-icon-driver:before {
+.ibr-icon-bus:before {
 	content: "\e612";
 }
-.ibr-icon-group:before {
+.ibr-icon-lorry:before {
 	content: "\e613";
 }
-.ibr-icon-spinner:before {
+.ibr-icon-driver:before {
 	content: "\e614";
 }
-.ibr-icon-globe:before {
+.ibr-icon-group:before {
 	content: "\e615";
 }
-.ibr-icon-calendar:before {
+.ibr-icon-globe:before {
 	content: "\e616";
 }
-.ibr-icon-clock:before {
+.ibr-icon-calendar:before {
 	content: "\e617";
 }
-.ibr-icon-warning:before {
+.ibr-icon-clock:before {
 	content: "\e618";
 }
-.ibr-icon-zoom-in:before {
+.ibr-icon-warning:before {
 	content: "\e619";
 }
-.ibr-icon-zoom-out:before {
+.ibr-icon-zoom-in:before {
 	content: "\e61a";
+}
+.ibr-icon-zoom-out:before {
+	content: "\e61b";
 }
