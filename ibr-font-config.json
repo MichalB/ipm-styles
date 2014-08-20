@@ -26,7 +26,7 @@
 				"name": "logo",
 				"ligatures": ""
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"iconIdx": 0
 		},
 		{
@@ -53,7 +53,7 @@
 				"name": "rect",
 				"ligatures": ""
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"iconIdx": 1
 		},
 		{
@@ -81,7 +81,7 @@
 				"name": "map",
 				"ligatures": ""
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"iconIdx": 2
 		},
 		{
@@ -109,7 +109,7 @@
 				"name": "marker",
 				"ligatures": ""
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"iconIdx": 3
 		},
 		{
@@ -137,7 +137,7 @@
 				"name": "marker-info",
 				"ligatures": ""
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"iconIdx": 4
 		},
 		{
@@ -165,7 +165,7 @@
 				"name": "filter",
 				"ligatures": ""
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"iconIdx": 5
 		},
 		{
@@ -223,7 +223,7 @@
 				"name": "spinner",
 				"ligatures": ""
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"iconIdx": 6
 		},
 		{
@@ -251,7 +251,7 @@
 				"name": "pump",
 				"ligatures": ""
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"iconIdx": 7
 		},
 		{
@@ -279,7 +279,7 @@
 				"name": "canister",
 				"ligatures": ""
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"iconIdx": 8
 		},
 		{
@@ -307,7 +307,7 @@
 				"name": "battery",
 				"ligatures": ""
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"iconIdx": 9
 		},
 		{
@@ -334,8 +334,175 @@
 				"name": "rpm",
 				"ligatures": ""
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"iconIdx": 10
+		},
+		{
+			"icon": {
+				"paths": [
+					"M438.429 73.143h0.005v0.286c121.352 0.001 231.050 49.025 310.298 128.272 79.243 79.245 128.266 188.941 128.269 310.29h0.286v0.016h-0.286c-0.001 121.352-49.025 231.050-128.272 310.298-79.245 79.243-188.94 128.266-310.288 128.269v0.286h-0.016v-0.286c-121.352-0.001-231.050-49.025-310.298-128.272-79.244-79.245-128.266-188.94-128.269-310.288h-0.286v-0.016h0.286c0.001-121.352 49.026-231.052 128.272-310.298 79.245-79.244 188.941-128.266 310.29-128.269v-0.286h0.011zM438.429 402.286c60.582 0 109.714 49.132 109.714 109.716 0 60.582-49.132 109.714-109.714 109.714-60.583 0-109.716-49.132-109.716-109.714 0-60.583 49.132-109.716 109.716-109.716zM438.434 219.143v0.286h-0.016v-0.286c-80.585 0.002-153.74 32.864-206.861 85.984-53.122 53.122-85.986 126.281-85.987 206.869h0.286v0.016h-0.286c0.002 80.585 32.864 153.738 85.984 206.859 53.122 53.123 126.281 85.986 206.869 85.987v-0.286h0.016v0.286c80.585-0.002 153.738-32.864 206.859-85.983 53.123-53.122 85.986-126.281 85.987-206.869h-0.286v-0.016h0.286c-0.002-80.586-32.864-153.74-85.983-206.861-53.122-53.123-126.281-85.986-206.869-85.987z"
+				],
+				"attrs": [
+					{}
+				],
+				"width": 950,
+				"grid": 14,
+				"tags": [
+					"dtco-drive"
+				]
+			},
+			"attrs": [
+				{}
+			],
+			"properties": {
+				"order": 32,
+				"id": 24,
+				"prevSize": 32,
+				"code": 58891,
+				"name": "dtco-drive",
+				"ligatures": ""
+			},
+			"setIdx": 1,
+			"iconIdx": 11
+		},
+		{
+			"icon": {
+				"paths": [
+					"M146.716 146.291v731.423h-146.286v-731.423h146.286zM512.426 146.291v731.423h-146.286v-731.423h146.286z"
+				],
+				"attrs": [
+					{}
+				],
+				"width": 586,
+				"grid": 14,
+				"tags": [
+					"dtco-pause"
+				]
+			},
+			"attrs": [
+				{}
+			],
+			"properties": {
+				"order": 33,
+				"id": 22,
+				"prevSize": 32,
+				"code": 58892,
+				"name": "dtco-pause",
+				"ligatures": ""
+			},
+			"setIdx": 1,
+			"iconIdx": 12
+		},
+		{
+			"icon": {
+				"paths": [
+					"M0 877.715c0-243.809 0-487.62 0-731.43h146.286v292.858h804.57v438.572h-146.286v-292.858h-658.285v292.858h-146.286z"
+				],
+				"attrs": [
+					{}
+				],
+				"grid": 14,
+				"tags": [
+					"dtco-rest"
+				]
+			},
+			"attrs": [
+				{}
+			],
+			"properties": {
+				"order": 34,
+				"id": 21,
+				"prevSize": 32,
+				"code": 58893,
+				"name": "dtco-rest",
+				"ligatures": ""
+			},
+			"setIdx": 1,
+			"iconIdx": 13
+		},
+		{
+			"icon": {
+				"paths": [
+					"M0 339.644l133.121 133.121 105.080-105.080 198.352 198.348-296.418 296.431 103.403 103.408 296.418-296.436 296.457 296.453 103.408-103.402-296.465-296.457 198.329-198.339 105.075 105.075 133.121-133.121-266.389-266.395-233.524 32.724 158.315 158.314-198.331 198.341-198.349-198.346 158.308-158.309-233.52-32.724z"
+				],
+				"attrs": [
+					{}
+				],
+				"width": 1170,
+				"grid": 14,
+				"tags": [
+					"dtco-work"
+				]
+			},
+			"attrs": [
+				{}
+			],
+			"properties": {
+				"order": 35,
+				"id": 20,
+				"prevSize": 32,
+				"code": 58894,
+				"name": "dtco-work",
+				"ligatures": ""
+			},
+			"setIdx": 1,
+			"iconIdx": 14
+		},
+		{
+			"icon": {
+				"paths": [
+					"M876.354 73.143v876.783h-876.783v-876.783h876.783zM145.284 700.785l481.926-481.926h-481.926v481.926zM730.64 322.288l-481.926 481.926h481.926v-481.926z"
+				],
+				"attrs": [
+					{}
+				],
+				"width": 950,
+				"grid": 14,
+				"tags": [
+					"dtco-available"
+				]
+			},
+			"attrs": [
+				{}
+			],
+			"properties": {
+				"order": 36,
+				"id": 25,
+				"prevSize": 32,
+				"code": 58895,
+				"name": "dtco-available",
+				"ligatures": ""
+			},
+			"setIdx": 1,
+			"iconIdx": 15
+		},
+		{
+			"icon": {
+				"paths": [
+					"M224.528 731.429c0-119.157 67.474-187.531 132.878-253.804 41.123-41.672 81.023-82.103 81.023-126.537v-0.007h0.286c-0.001-38.595-15.505-71.080-40.563-93.831-26.563-24.117-64.022-38.104-105.996-38.105v0.286h-0.019v-0.286c-41.979 0.001-79.44 13.989-106.004 38.107-25.057 22.75-40.559 55.233-40.561 93.825v14.64h-145.715l0.001-14.64c0.004-82.561 33.631-152.472 87.988-201.825 52.855-47.989 125.108-75.82 204.291-75.821v-0.286h0.019v0.286c79.179 0.004 151.429 27.832 204.283 75.819 54.358 49.353 87.989 119.267 87.99 201.831h0.286v0.007c0 103.871-60.723 165.403-123.308 228.823-44.872 45.468-91.164 92.379-91.164 151.519h-145.713zM219.001 950.858h146.286v-146.286h-146.286v146.286z"
+				],
+				"attrs": [
+					{}
+				],
+				"width": 658,
+				"grid": 14,
+				"tags": [
+					"dtco-notavailable"
+				]
+			},
+			"attrs": [
+				{}
+			],
+			"properties": {
+				"order": 37,
+				"id": 23,
+				"prevSize": 32,
+				"code": 58896,
+				"name": "dtco-notavailable",
+				"ligatures": ""
+			},
+			"setIdx": 1,
+			"iconIdx": 16
 		},
 		{
 			"icon": {
@@ -358,12 +525,12 @@
 				"order": 15,
 				"id": 0,
 				"prevSize": 32,
-				"code": 58891,
+				"code": 58897,
 				"name": "vehicles",
 				"ligatures": ""
 			},
-			"setIdx": 0,
-			"iconIdx": 11
+			"setIdx": 1,
+			"iconIdx": 17
 		},
 		{
 			"icon": {
@@ -386,12 +553,12 @@
 				"order": 16,
 				"id": 2,
 				"prevSize": 32,
-				"code": 58892,
+				"code": 58898,
 				"name": "truck",
 				"ligatures": ""
 			},
-			"setIdx": 0,
-			"iconIdx": 12
+			"setIdx": 1,
+			"iconIdx": 18
 		},
 		{
 			"icon": {
@@ -414,12 +581,12 @@
 				"order": 17,
 				"id": 1,
 				"prevSize": 32,
-				"code": 58893,
+				"code": 58899,
 				"name": "truck-alt",
 				"ligatures": ""
 			},
-			"setIdx": 0,
-			"iconIdx": 13
+			"setIdx": 1,
+			"iconIdx": 19
 		},
 		{
 			"icon": {
@@ -442,12 +609,12 @@
 				"order": 18,
 				"id": 13,
 				"prevSize": 32,
-				"code": 58894,
+				"code": 58900,
 				"name": "car",
 				"ligatures": ""
 			},
-			"setIdx": 0,
-			"iconIdx": 14
+			"setIdx": 1,
+			"iconIdx": 20
 		},
 		{
 			"icon": {
@@ -470,12 +637,12 @@
 				"order": 19,
 				"id": 12,
 				"prevSize": 32,
-				"code": 58895,
+				"code": 58901,
 				"name": "digger",
 				"ligatures": ""
 			},
-			"setIdx": 0,
-			"iconIdx": 15
+			"setIdx": 1,
+			"iconIdx": 21
 		},
 		{
 			"icon": {
@@ -498,12 +665,12 @@
 				"order": 20,
 				"id": 3,
 				"prevSize": 32,
-				"code": 58896,
+				"code": 58902,
 				"name": "tractor",
 				"ligatures": ""
 			},
-			"setIdx": 0,
-			"iconIdx": 16
+			"setIdx": 1,
+			"iconIdx": 22
 		},
 		{
 			"icon": {
@@ -526,12 +693,12 @@
 				"order": 21,
 				"id": 10,
 				"prevSize": 32,
-				"code": 58897,
+				"code": 58903,
 				"name": "manipulator",
 				"ligatures": ""
 			},
-			"setIdx": 0,
-			"iconIdx": 17
+			"setIdx": 1,
+			"iconIdx": 23
 		},
 		{
 			"icon": {
@@ -554,12 +721,12 @@
 				"order": 28,
 				"id": 19,
 				"prevSize": 32,
-				"code": 58898,
+				"code": 58904,
 				"name": "bus",
 				"ligatures": ""
 			},
-			"setIdx": 0,
-			"iconIdx": 18
+			"setIdx": 1,
+			"iconIdx": 24
 		},
 		{
 			"icon": {
@@ -576,11 +743,11 @@
 				"id": 184,
 				"order": 7,
 				"prevSize": 32,
-				"code": 58899,
+				"code": 58905,
 				"name": "lorry",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 0
 		},
 		{
@@ -599,11 +766,11 @@
 				"id": 7,
 				"order": 6,
 				"prevSize": 32,
-				"code": 58900,
+				"code": 58906,
 				"name": "driver",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 1
 		},
 		{
@@ -623,11 +790,11 @@
 				"id": 168,
 				"order": 5,
 				"prevSize": 32,
-				"code": 58901,
+				"code": 58907,
 				"name": "group",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 2
 		},
 		{
@@ -645,11 +812,11 @@
 				"id": 162,
 				"order": 9,
 				"prevSize": 32,
-				"code": 58902,
+				"code": 58908,
 				"name": "globe",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 3
 		},
 		{
@@ -668,11 +835,11 @@
 				"id": 108,
 				"order": 4,
 				"prevSize": 32,
-				"code": 58903,
+				"code": 58909,
 				"name": "calendar",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 4
 		},
 		{
@@ -690,11 +857,11 @@
 				"id": 22,
 				"order": 3,
 				"prevSize": 32,
-				"code": 58904,
+				"code": 58910,
 				"name": "clock",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 5
 		},
 		{
@@ -713,11 +880,11 @@
 				"id": 106,
 				"order": 8,
 				"prevSize": 32,
-				"code": 58905,
+				"code": 58911,
 				"name": "warning",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 6
 		},
 		{
@@ -736,11 +903,11 @@
 				"id": 14,
 				"order": 1,
 				"prevSize": 32,
-				"code": 58906,
+				"code": 58912,
 				"name": "zoom-in",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 7
 		},
 		{
@@ -759,11 +926,11 @@
 				"id": 15,
 				"order": 2,
 				"prevSize": 32,
-				"code": 58907,
+				"code": 58913,
 				"name": "zoom-out",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 8
 		}
 	],
