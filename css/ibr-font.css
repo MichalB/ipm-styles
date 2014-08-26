@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'IBR-font';
-	src:url('../fonts/IBR-font.eot');
-	src:url('../fonts/IBR-font.eot') format('embedded-opentype'),
-		url('../fonts/IBR-font.woff') format('woff'),
-		url('../fonts/IBR-font.ttf') format('truetype'),
-		url('../fonts/IBR-font.svg') format('svg');
+	src:url('../fonts/IBR-font.eot?jo28md');
+	src:url('../fonts/IBR-font.eot?#iefixjo28md') format('embedded-opentype'),
+		url('../fonts/IBR-font.woff?jo28md') format('woff'),
+		url('../fonts/IBR-font.ttf?jo28md') format('truetype'),
+		url('../fonts/IBR-font.svg?jo28md#IBR-font') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -17,7 +17,6 @@
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
-	font-size: 1.15em;
 	position: relative;
 	top: 1px;
 	display: inline-block;
@@ -126,27 +125,39 @@
 .ibr-icon-tank-loss:before {
 	content: "\e620";
 }
-.ibr-icon-fuel:before {
+.ibr-icon-canister:before {
 	content: "\e621";
 }
-.ibr-icon-fuel-1:before {
+.ibr-icon-canister-1:before {
 	content: "\e622";
 }
-.ibr-icon-fuel-2:before {
+.ibr-icon-canister-2:before {
 	content: "\e623";
 }
-.ibr-icon-fuel-3:before {
+.ibr-icon-canister-3:before {
 	content: "\e624";
 }
-.ibr-icon-pump:before {
+.ibr-icon-fuel:before {
 	content: "\e625";
 }
-.ibr-icon-pump-1:before {
+.ibr-icon-fuel-1:before {
 	content: "\e626";
 }
-.ibr-icon-pump-2:before {
+.ibr-icon-fuel-2:before {
 	content: "\e627";
 }
-.ibr-icon-pump-3:before {
+.ibr-icon-fuel-3:before {
 	content: "\e628";
+}
+.ibr-icon-pump:before {
+	content: "\e629";
+}
+.ibr-icon-pump-1:before {
+	content: "\e62a";
+}
+.ibr-icon-pump-2:before {
+	content: "\e62b";
+}
+.ibr-icon-pump-3:before {
+	content: "\e62c";
 }
