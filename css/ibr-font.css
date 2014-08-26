@@ -111,19 +111,19 @@
 .ibr-icon-edit-filter:before {
 	content: "\e61b";
 }
-.ibr-icon-overview:before {
+.ibr-icon-print:before {
 	content: "\e61c";
 }
-.ibr-icon-print:before {
+.ibr-icon-road:before {
 	content: "\e61d";
 }
-.ibr-icon-road:before {
+.ibr-icon-overview:before {
 	content: "\e61e";
 }
-.ibr-icon-tank-loss:before {
+.ibr-icon-can:before {
 	content: "\e61f";
 }
-.ibr-icon-can:before {
+.ibr-icon-tank-loss:before {
 	content: "\e620";
 }
 .ibr-icon-fuel:before {
@@ -149,16 +149,4 @@
 }
 .ibr-icon-pump-3:before {
 	content: "\e628";
-}
-.ibr-icon-canister:before {
-	content: "\e629";
-}
-.ibr-icon-canister-1:before {
-	content: "\e62a";
-}
-.ibr-icon-canister-2:before {
-	content: "\e62b";
-}
-.ibr-icon-canister-3:before {
-	content: "\e62c";
 }
