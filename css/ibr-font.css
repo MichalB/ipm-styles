@@ -113,10 +113,10 @@
 .ibr-icon-overview:before {
 	content: "\e61c";
 }
-.ibr-icon-road:before {
+.ibr-icon-book:before {
 	content: "\e61d";
 }
-.ibr-icon-distance-filter:before {
+.ibr-icon-road:before {
 	content: "\e61e";
 }
 .ibr-icon-can:before {
@@ -169,4 +169,19 @@
 }
 .ibr-icon-fuel-checked:before {
 	content: "\e62f";
+}
+.ibr-icon-meter:before {
+	content: "\e630";
+}
+.ibr-icon-flag:before {
+	content: "\e631";
+}
+.ibr-icon-flag-checked:before {
+	content: "\e632";
+}
+.ibr-icon-tachograph:before {
+	content: "\e633";
+}
+.ibr-icon-tachograph-ring:before {
+	content: "\e634";
 }
