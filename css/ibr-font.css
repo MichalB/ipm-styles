@@ -104,7 +104,7 @@
 .ibr-icon-warning:before {
 	content: "\e619";
 }
-.ibr-icon-edit-filter:before {
+.ibr-icon-edit:before {
 	content: "\e61a";
 }
 .ibr-icon-print:before {
@@ -122,7 +122,7 @@
 .ibr-icon-can:before {
 	content: "\e61f";
 }
-.ibr-icon-tank-loss:before {
+.ibr-icon-fueling-loss:before {
 	content: "\e620";
 }
 .ibr-icon-pump:before {
@@ -184,4 +184,13 @@
 }
 .ibr-icon-tachograph-ring:before {
 	content: "\e634";
+}
+.ibr-icon-tank:before {
+	content: "\e635";
+}
+.ibr-icon-motor:before {
+	content: "\e636";
+}
+.ibr-icon-dashboard:before {
+	content: "\e637";
 }
