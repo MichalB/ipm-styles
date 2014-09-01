@@ -1,10 +1,9 @@
 @font-face {
 	font-family: 'IBR-font';
 	src:url('../fonts/IBR-font.eot');
-	src:url('../fonts/IBR-font.eot') format('embedded-opentype'),
+	src:url('../fonts/IBR-font.eot#iefix') format('embedded-opentype'),
 		url('../fonts/IBR-font.woff') format('woff'),
-		url('../fonts/IBR-font.ttf') format('truetype'),
-		url('../fonts/IBR-font.svg') format('svg');
+		url('../fonts/IBR-font.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
