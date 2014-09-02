@@ -803,6 +803,22 @@ h4{
 	width: 100%;
 	margin: 10px 0 15px 0;
 }
+.aetr-bar .left-half {
+	width: 85%;
+}
+.aetr-bar .right-half {
+	width: 15%;
+	position: relative;
+}
+.aetr-bar .right-half div {
+	width: 100%;
+}
+.aetr-bar .right-half .end {
+	width: 20px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
 .aetr-bar div{
 	height: 40px;
 	float: left;
@@ -838,6 +854,7 @@ h4{
 .aetr-table .table td{
 	background-color: #FFF;
 }
+
 .modal-header {
 	background-color: #F2F2F2;
 	border-top-right-radius: 5px;
