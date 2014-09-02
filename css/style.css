@@ -805,6 +805,9 @@ h4{
 }
 .aetr-bar .left-half {
 	width: 85%;
+	display: inline-flex;
+	display: -webkit-inline-flex;
+
 }
 .aetr-bar .right-half {
 	width: 15%;
