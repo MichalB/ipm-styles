@@ -844,6 +844,9 @@ h4{
 .aetr-bar .work, .aetr-legend .work{
 	background-color: #FFC801;
 }
+.aetr-legend {
+	margin-bottom: 15px;
+}
 .aetr-legend p {
 	margin: 10px 7px;
 }
@@ -861,6 +864,9 @@ h4{
 }
 .aetr-table .table td{
 	background-color: #FFF;
+}
+hr.aetr-divider {
+	border-top-color: #C0C0C0;
 }
 
 .modal-header {
