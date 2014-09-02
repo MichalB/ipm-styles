@@ -808,18 +808,17 @@ h4{
 }
 .aetr-bar .right-half {
 	width: 15%;
-	position: relative;
 }
 .aetr-bar .right-half div {
 	width: 100%;
 }
-.aetr-bar .right-half .end {
-	width: 8px;
+.aetr-bar .end {
+	width: 8px !important;
 	position: absolute;
 	top: 0;
 	right: 0;
 }
-.aetr-bar .right-half .end > div {
+.aetr-bar .end > div {
     width: 0;
     border: 4px transparent solid;
     border-right: 4px #f5f5f5 solid;
@@ -827,10 +826,11 @@ h4{
     min-width: 0;
     height: 0;
 }
-.aetr-bar div{
+.aetr-bar div {
 	height: 40px;
 	float: left;
 	min-width: 1px;
+	position: relative;
 }
 .aetr-bar .drive, .aetr-legend .drive{
 	background-color: #FE6464;
