@@ -193,3 +193,6 @@
 .ibr-icon-dashboard:before {
 	content: "\e637";
 }
+.ibr-icon-clean:before {
+	content: "\e638";
+}

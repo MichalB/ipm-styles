@@ -650,6 +650,13 @@ h4{
 	}
 }
 
+@media (max-width: 768px) {
+	.filter .input-group .ibr-icon.ibr-icon-clock {
+		padding: 8px 8px 7px 8px;
+	}
+}
+
+
 
 @media (min-width: 768px) {
 	.filter-date input {
