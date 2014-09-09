@@ -640,15 +640,6 @@ h4{
 	top: -1px;
 	padding: 7px 8px 7px 6px;
 }
-@-moz-document url-prefix() {
-	.filter-time input {
-		position: relative;
-		top: 1px;
-	}
-	.filter .input-group .ibr-icon.ibr-icon-clock {
-		padding-top: 8px;
-	}
-}
 
 @media (max-width: 768px) {
 	.filter .input-group .ibr-icon.ibr-icon-clock {
@@ -919,4 +910,15 @@ hr.aetr-divider {
 .fueling-loss h2 {
 	text-align: left;
 	margin: 20px 0 20px 5px;
+}
+
+.bootstrap-datetimepicker-widget .timepicker td, .bootstrap-datetimepicker-widget .timepicker td span {
+	height: 30px;
+	line-height: 30px;
+}
+.bootstrap-datetimepicker-widget .timepicker td span {
+	margin: 0;
+}
+.bootstrap-datetimepicker-widget .timepicker a {
+	color: #333;
 }
