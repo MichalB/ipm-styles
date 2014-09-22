@@ -1,0 +1,415 @@
+//
+// Vozidlo přehled
+// --------------------------------------------------
+
+//== DTCO view
+
+.dtco {
+  padding: 0 15px;
+}
+
+.dtco-container {
+  background-color: #EBEBEB;
+  width: 100%;
+  height: auto;
+  border: 1px solid #B9B9B9;
+  border-radius: 4px;
+  padding: 15px;
+  position: relative;
+  color: #B4B4B4;
+  font-family: 'DTCO';
+  font-size: 19px;
+
+  .row {
+    margin: 0;
+  }
+
+  .dtco-drivers {
+    text-align: left;
+  }
+
+  .dtco-active-field {
+    color: black;
+  }
+
+  .dtco-temperature {
+    text-align: left;
+  }
+
+  .dtco-speed {
+    text-align: right;
+  }
+
+  .dtco-driver1-operation, .dtco-driver2-operation {
+    background-color: #E1E1E1;
+    padding: 0 8px;
+    font-size: 25px;
+  }
+
+  .dtco-distance {
+    font-size: 29px;
+    top: -4px;
+  }
+
+  .dtco-temperature, .dtco-time, .dtco-speed {
+    font-size: 25px;
+  }
+
+  .dtco-drivers {
+    background-color: #E1E1E1;
+    padding: 8px;
+  }
+}
+
+@media (min-width: 480px) {
+  .dtco-container .dtco-distance {
+    font-size: 40px;
+    top: -18px;
+  }
+}
+
+@media (min-width: 768px) {
+  .dtco {
+    padding: 0 45px;
+  }
+}
+
+@media (min-width: 992px) {
+  .dtco {
+    padding: 0;
+  }
+
+  .dtco-container {
+    font-size: 16px;
+
+    .dtco-temperature, .dtco-time, .dtco-speed {
+      font-size: 18px;
+      padding: 0;
+    }
+
+    .dtco-driver1-operation, .dtco-driver2-operation {
+      font-size: 18px;
+      padding: 0;
+    }
+
+    .dtco-distance {
+      font-size: 24px;
+      padding: 0;
+      top: -1px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .dtco {
+    padding: 0 !important;
+  }
+
+  .dtco-container {
+    font-size: 16px;
+
+    .dtco-distance {
+      font-size: 27px;
+      top: -4px;
+    }
+
+    .dtco-temperature, .dtco-time, .dtco-speed {
+      font-size: 20px;
+    }
+
+    .dtco-driver1-operation, .dtco-driver2-operation {
+      font-size: 23px;
+    }
+  }
+}
+
+@media (min-width: 1500px) {
+  .dtco {
+    padding: 0 20px !important;
+  }
+
+  .dtco-container {
+    font-size: 19px;
+
+    .dtco-distance {
+      font-size: 34px;
+      top: -12px;
+    }
+
+    .dtco-temperature, .dtco-time, .dtco-speed {
+      font-size: 23px;
+    }
+  }
+}
+
+@media (min-width: 1800px) {
+  .dtco {
+    padding: 0 80px !important;
+  }
+
+  .dtco-container .dtco-distance {
+    font-size: 31px;
+    top: -2px;
+  }
+}
+
+//== Vehicle charts
+
+.vehicle-charts {
+  display: table;
+
+  .alarms {
+    margin-top: 15px;
+    height: 40px;
+
+    input[type="checkbox"] {
+      margin: 5px;
+      top: -5px;
+      position: relative;
+    }
+
+    .glyphicons-regular, .ibr-icon {
+      font-size: 27px;
+      vertical-align: baseline;
+    }
+  }
+
+  .checkbox, .radio + .radio, .checkbox + .checkbox {
+    margin: 10px 0;
+  }
+
+  .gps-alarm-inactive {
+    color: #B4B4B4;
+  }
+
+  div {
+    text-align: center;
+  }
+
+  .chart-text {
+    font-weight: 700;
+    font-size: 14px;
+    position: relative;
+    top: -23px;
+    margin-left: 10px;
+    padding-right: 10px;
+
+    .ibr-icon {
+      color: gray;
+      font-size: 16px;
+    }
+
+    .chart-from, .chart-to {
+      font-weight: 700;
+      font-size: 11px;
+      color: #B9B9B9;
+      position: absolute;
+      top: 5px;
+    }
+
+    .chart-from {
+      left: 5px;
+    }
+
+    .chart-to {
+      right: 7px;
+    }
+  }
+
+  canvas {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 480px) {
+  .vehicle-charts .chart-text {
+    font-size: 18px;
+  }
+
+  .vehicle-charts .chart-text .chart-from, .vehicle-charts .chart-text .chart-to {
+    top: 0;
+  }
+
+  .vehicle-charts .chart-text .ibr-icon {
+    font-size: 20px;
+  }
+
+  .vehicle-charts .chart-text .chart-from, .vehicle-charts .chart-text .chart-to {
+    font-size: 14px;
+  }
+
+  .vehicle-charts .chart-text {
+    top: -38px;
+    margin-left: 20px;
+    margin-right: 16px;
+    padding-right: 4px;
+  }
+
+  .vehicle-charts .chart-text .ibr-icon {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  .vehicle-charts .alarms .glyphicons-regular, .vehicle-charts .alarms .ibr-icon {
+    vertical-align: text-bottom;
+  }
+
+  .vehicle-charts h3 {
+    font-size: 20px;
+  }
+
+  .vehicle-charts .chart-text {
+    top: -38px;
+    margin-left: 20px;
+    margin-right: 16px;
+    padding-right: 4px;
+  }
+
+  .vehicle-charts .chart-text .ibr-icon {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  .vehicle-charts .alarms {
+    height: 65px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .vehicle-charts .alarms {
+    height: 65px;
+  }
+
+  .vehicle-charts h3 {
+    font-size: 25px;
+  }
+
+  .vehicle-charts .chart-text .ibr-icon {
+    font-size: 30px;
+  }
+
+  .vehicle-charts .chart-text {
+    font-size: 20px;
+  }
+
+  .vehicle-charts > div {
+    padding: 0 30px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .vehicle-charts .alarms {
+    height: 65px;
+  }
+
+  .vehicle-charts > div {
+    padding: 0 70px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .vehicle-charts > div {
+    padding: 0 80px;
+  }
+
+  .vehicle-charts .chart-text {
+    top: -45px;
+  }
+
+  .vehicle-charts .chart-text .chart-from, .vehicle-charts .chart-text .chart-to {
+    font-size: 18px;
+  }
+}
+
+//== Map
+
+.vehicle-position {
+  border-top: 2px solid #ddd;
+  padding: 10px 0;
+}
+
+.vehicle-position .ibr-icon-map {
+  color: gray;
+  font-size: 30px;
+  vertical-align: bottom;
+  display: block;
+}
+
+@media (min-width: 992px) {
+  .vehicle-position .ibr-icon-map {
+    display: inline-block;
+  }
+
+  .vehicle-position br {
+    display: none;
+  }
+}
+
+.vehicle-position #vehicle-map {
+  border: 2px solid #ddd;
+  height: 380px;
+  margin: 0 20px;
+}
+
+#vehicle-overview #map-wrapper {
+  height: 380px;
+
+  #map-container {
+    height: 100%;
+  }
+}
+
+//== Service distance
+
+.vehicle-service {
+  margin: 50px 0;
+  .progress {
+    border-radius: 0;
+    margin-top: 30px;
+    position: relative;
+    overflow: visible;
+    box-shadow: none;
+    height: 25px;
+  }
+  .progress .progress-bar {
+    min-width: 36px;
+    line-height: 25px;
+  }
+  .progress .left-annotation, .progress .right-annotation {
+    position: absolute;
+    top: 0;
+    height: 25px;
+    margin-top: -25px;
+    padding: 0 8px;
+    font-weight: 700;
+    font-size: 16px;
+    color: gray;
+  }
+  .left-annotation {
+    left: 0;
+    border-left: 10px solid #F5F5F5;
+  }
+  .right-annotation {
+    right: 0;
+    border-right: 10px solid #F5F5F5;
+  }
+}
+
+.vehicle-other tr:last-child {
+  border-bottom: 1px solid #ddd;
+}
+
+.vehicle-other td {
+  border-right: 1px solid #ddd;
+}
+
+.vehicle-other td:last-child {
+  border-right: none;
+}

@@ -1,0 +1,105 @@
+//
+// Menu
+// --------------------------------------------------
+
+.navbar-brand {
+  padding: 9px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  margin: auto;
+}
+
+.navbar-brand .ibr-icon-logo {
+  font-size: 24pt;
+  color: white;
+}
+
+.navbar-nav .ibr-icon-rect {
+  font-size: 15px;
+}
+
+.navbar-nav .ibr-icon {
+  color: #FFCC01;
+}
+
+.navbar-nav .dropdown-menu {
+  padding-left: 33px;
+}
+
+.navbar-logout {
+  display: block;
+  margin: 8px 15px 8px 0;
+  padding: 6px 9px;
+  float: right;
+  border: 1px solid #333;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 4px;
+  color: white;
+}
+
+.navbar-logout:hover, .navbar-logout:focus {
+  background-color: #333;
+}
+
+.navbar-logout span {
+  width: 24px;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+  padding: 8px 20px;
+}
+
+.navbar-toggle {
+  position: absolute;
+  margin: 8px 0 8px 15px;
+}
+
+.navbar .navbar-collapse .navbar-left {
+  padding-top: 50px;
+}
+
+.navbar-nav.navbar-right {
+  display: none;
+}
+
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+  max-height: 550px;
+}
+
+@media (max-width: 480px) {
+  .navbar, .navbar .dropdown-menu {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-logout {
+    display: none;
+  }
+
+  .navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+  }
+
+  .navbar-nav .dropdown-menu {
+    padding-left: 0;
+  }
+
+  .navbar-brand {
+    position: relative;
+    width: auto;
+  }
+
+  .navbar .navbar-collapse .navbar-left {
+    padding-top: 0;
+  }
+
+  .navbar-nav.navbar-right {
+    display: block;
+  }
+}

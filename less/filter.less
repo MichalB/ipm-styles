@@ -1,0 +1,103 @@
+.filter {
+  padding-bottom: 5px;
+}
+
+.filter-bottom-half {
+  margin-top: 40px;
+}
+
+.filter-vehicles .ibr-icon {
+  color: #000;
+  font-size: 18px;
+  display: none;
+}
+
+.filter-date input, .filter-date .input-group-addon {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.filter-time input, .filter-time .input-group-addon {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.filter .control-label {
+  text-align: left;
+}
+
+.filter-inverse {
+  cursor: pointer;
+  font-size: 25px;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: gray;
+}
+
+.filter hr {
+  border-color: #D4D4D4;
+  margin: 20px;
+}
+
+.input-group .ibr-icon {
+  top: 0;
+}
+
+.filter .input-group .ibr-icon {
+  font-size: 1.25em;
+}
+
+.form-control:focus {
+  z-index: 5;
+}
+
+@media (max-width: 768px) {
+  .filter-time input, .filter-date {
+    margin-bottom: -1px;
+  }
+}
+
+.filter .driver-error, .filter .vehicle-error {
+  border: 1px solid #a94442;
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
+  color: #a94442;
+}
+
+@media (min-width: 768px) {
+  .filter-date input {
+    border-bottom-left-radius: 4px;
+  }
+
+  .filter-time input {
+    border-top-left-radius: 4px;
+  }
+
+  .filter-date .input-group-addon {
+    border-bottom-right-radius: 4px;
+  }
+
+  .filter-time .input-group-addon {
+    border-top-right-radius: 4px;
+    margin-top: 0;
+  }
+
+  .filter-vehicles .ibr-icon {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 992px) {
+  .filter .control-label {
+    text-align: right;
+  }
+
+  .filter-top-half {
+    margin-top: 20px;
+  }
+
+  .filter-inverse {
+    margin-right: 14px;
+  }
+}

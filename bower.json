@@ -1,0 +1,22 @@
+{
+  "name": "ipm-styles",
+  "version": "0.1.0",
+  "homepage": "https://github.com/pilotak/ipm-styles",
+  "authors": [
+    "Pavel Slama",
+    "Michal Blaha <michal.blaha@socialbakers.com>"
+  ],
+  "license": "GNU",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gauge.js": "~1.2.1",
+    "spin.js": "~2.0.1",
+    "jquery": "~2.1.1"
+  }
+}
